@@ -23,7 +23,6 @@ node
  sh "${mavenHome}/bin/mvn clean package"
  }
  
-  /*
  stage("ExecuteSonarQubeReport")
  {
  sh "${mavenHome}/bin/mvn sonar:sonar"
@@ -49,6 +48,6 @@ node
  Landmark Technologies,
  +14372152483.''', cc: 'mylandmarktech@gmail.com', from: '', replyTo: '', subject: 'Build is over!!', to: 'mylandmarktech@gmail.com'
  }
- */
+ 
  
  }
